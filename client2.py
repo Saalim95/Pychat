@@ -21,8 +21,4 @@ while (msg!='exit'):
 
     s.sendall(msg.encode('utf-8'))
 
-    #reply=s.recv(4096)
-
-    #print(reply)
-
 s.close()
