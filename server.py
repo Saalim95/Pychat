@@ -19,8 +19,6 @@ while True:
     while(msg!='exit'):
         msg=(c.recv(4094)).decode('utf-8')
         print("Client: " + msg)
-    print("Client has been disconnected.")
+    print("Client disconnected.")
 s.close()
 sys.exit()
-    
-  
