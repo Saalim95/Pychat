@@ -1,16 +1,16 @@
 # Client
+#Default Access
 
+import socket as sock
+import 
 
-import socket
-import sys
-
-s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s=sock.socket(sock.AF_INET, sock.SOCK_STREAM)
 
 host='localhost'
 port=1234
 msg=''
 
-ip=socket.gethostbyname(host)
+ip=sock.gethostbyname(host)
 
 s.connect((ip, port))
 
