@@ -17,7 +17,7 @@ s.connect((ip, port))
 print("Connected to Server")
 
 while (msg!='exit'):
-    msg=input("You: ")
+    msg=input("You :  ")
 
     s.sendall(msg.encode('utf-8'))
 
